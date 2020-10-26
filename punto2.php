@@ -12,15 +12,13 @@
 
     <header>
 
-
         <nav class="navbar navbar-light bg-info">
         <a class="navbar-brand" href="index.html">
             <img src="img/kisspng-computer-icons-computer-programming-user-interface-browser-icon-5b336e98cc44f8.2093230815300973048367.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             Inicio
         </a>
         </nav>
-
-        
+     
     </header>
     <main>
 
@@ -83,8 +81,7 @@
 
                     <form action ="punto2.php" method ="POST">
 
-                    <div class = "container">
-                        
+                    <div class = "container">  
                     <div class="row justify-content-center">
                         <div class="col-auto my-1 ">
                         <button type="submit" class="btn btn-outline-success margenbotoncalcu" name="calcular">Calcular</button>
@@ -95,21 +92,20 @@
                         <button type="submit" class="btn btn-outline-dark margenbotoncalcu" name="borrar">Borrar</button>
                         </div>
                     </div>
-
                     </div>
 
                     <div class="form-row justify-content-center cartillas2">
-                        <div class="col-4">
+                        <div class="col-5 justify-content-center">
                         <label for="exampleInputEmail1">Peso en Kilos</label>
-                        <input type="text" class="form-control" placeholder="altura" name="peso" value="<?php echo($peso)?>">
+                        <input type="text" class="form-control text-center" placeholder="altura" name="peso" value="<?php echo($peso)?>">
                         </div>
-                        <div class="col-4">
+                        <div class="col-5 justify-content-center">
                         <label for="exampleInputEmail1">Altura en metros</label>
-                        <input type="text" class="form-control" placeholder="peso" name="altura" value="<?php echo($altura)?>">
+                        <input type="text" class="form-control text-center " placeholder="peso" name="altura" value="<?php echo($altura)?>">
                         </div>
-                        <div class="col-4">
+                        <div class="col-2 justify-content-center">
                         <label for="exampleInputEmail1">Resultado</label>
-                        <input type="text" class="form-control resultadoimc" placeholder="resultado" name="resultado" value="<?php echo($imc)?>">
+                        <input type="text" class="form-control resultadoimc text-center" placeholder="resultado" name="resultado" value="<?php echo($imc)?>">
                         </div>
                          </div>
                         </div>
@@ -117,7 +113,7 @@
                         </div>
 
                         <div class = "container">
-                            <div class = "row justify-content-center ">
+                            <div class = "row justify-content-center text-center ">
                             <div class ="col-12">
 
                                 <?php if ($imc > 1 && $imc < 18.5):  ?>

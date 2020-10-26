@@ -1,6 +1,5 @@
 .body{
     background-color: #e1f5fe;
-
     }
 
 .cartillas1
@@ -11,6 +10,7 @@ margin-top: 80px;
 .cartillas2
 {
 margin-top: 50px;
+margin-left: 100px;
 }
 
 .margenbotoncalcu
@@ -27,5 +27,21 @@ margin-top: 50px;
 .textoimc
 {
     margin-top: 20px; 
+    text-align: center;
+}
+
+.botonedad
+{
+    margin-top: 30px;
+    width: 150px;
+}
+
+.botonedad2
+{
+    margin-top: 30px;
+}
+
+.textofechajugador
+{
     text-align: center;
 }
